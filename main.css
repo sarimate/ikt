@@ -1,0 +1,559 @@
+.ult {
+  list-style-type: none;
+  margin: 0;
+  padding-right: 0%;
+  overflow: hidden;
+  background-color: black;
+  top: 0;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  width: 79%;
+}
+
+.ult, .lit, .active, .mas, .har, .negy, .ot, .hat{
+  transition: .5s;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.ult, .lit, .active::before, .mas::before, .har::before, .negy::before, .ot::before, .hat::before{
+  content: '';
+  background: var(--clr);
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+.nav{
+  width: 79%;
+  height: 70px;
+  background-color: black;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+}
+
+.lit {
+  float: left;
+  width: 16%;
+  padding-left: 0%;
+  margin: 0%;
+  display: grid;
+}
+
+.active{
+  color: purple;
+  padding-right: 100px;
+}
+
+.mas{
+  color:orange;
+}
+
+.har{
+  color: red;
+}
+
+.negy{
+  color: lightgreen;
+}
+
+.ot{
+  color: lightblue;
+}
+
+.hat{
+  color: pink;
+}
+
+.active:hover{
+  color: pink;
+  padding-right: 100px;
+}
+
+.mas:hover{
+  color:yellow;
+}
+
+.har:hover{
+  color: orange;
+}
+
+.negy:hover{
+  color: green;
+}
+
+.ot:hover{
+  color: blue;
+}
+
+.hat:hover{
+  color: purple;
+}
+
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 6% 0%;
+  text-decoration: none;
+  width: 0%;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 0%;
+}
+
+
+body {
+  color: white;
+  background-color: #111;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+}
+
+.fofo {
+  width: 80%;
+  height: 700%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: black;
+  margin-top: 0;
+  font-family: garamond;
+  box-shadow: 20px 50px 50px 50px  black;
+}
+
+.background{
+  width: 90%;
+  height: 600px;
+  background-image: url(6118e27b6b190.jpg);
+  background-repeat: no-repeat;
+  background-size: 1500px 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.about{
+  color: white;
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+#egerrol{
+  font-size: 40px;
+  text-decoration: underline;
+  margin-top: 0;
+  color: purple;
+}
+
+.egerszov{
+  width: 40%;
+  margin-top: 0;
+  font-size: 30px;
+  float: left;
+  color: purple;
+  text-align: justify;
+}
+
+.egerszov:hover{
+  animation-name: prog;
+  animation-duration: 15s;
+}
+
+.egerlink::after{
+  text-decoration: none;
+}
+
+.egerlink:checked{
+  text-decoration: none;
+}
+
+.egerlink{
+  text-decoration: none;
+}
+
+.egerlink:link{
+  text-decoration: none;
+}
+
+.terkep{
+  float: right;
+  width: 50%;
+  margin-right: 15px;
+  margin-top: 20px;
+
+}
+
+.terkep:hover{
+  box-shadow: 5px 5px 5px white;
+}
+
+.eggers{
+  width: 80%;
+}
+
+
+.programok{
+  margin-top: 700px;
+  text-align: center;
+  margin-right: 2%;
+  color: orange;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#programs{
+  text-decoration: underline;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bot{
+  margin-left: auto;
+  margin-right: auto;
+  color: aqua;
+  font-size: 15px;
+  overflow: hidden;
+  bottom: 0;
+  position: fixed;
+}
+
+.progtab, .progtd, .progtr{
+  width: 79%;
+  border-color: white;
+  height: 100px;
+  color: orange;
+  align-self: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.progtd{
+  width: 70%;
+}
+
+.progcap{
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-decoration: underline;
+  color: orange;
+}
+
+#toppp{
+  margin-top: 70px;
+  text-align: right;
+  padding-right: 30px;
+}
+
+
+
+#szallasok{
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: red;
+  text-decoration: underline;
+  font-size: 40px;
+}
+
+.numero3{
+  background-image: url(dsc03289_n1-800x600.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 79%;
+  margin-left: 67px;
+  height: 160%;
+  border-radius: 30px;
+}
+
+.numero1{
+  background-image: url(pület-parkoló-2-800x600.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 79%;
+  margin-left: 67px;
+  height: 160%;
+  border-radius: 30px;
+}
+
+.numero2{
+  background-image: url(cs_t_1n1-800x600.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 79%;
+  margin-left: 67px;
+  height: 160%;
+  border-radius: 30px;
+}
+
+
+
+.szallastab, .szallastr, .szallastd{
+  width: 33%;
+  height: 200px;
+}
+
+.szallastda{
+  width: 33%;
+  padding-top: 15%;
+  text-align: center;
+  margin-top: 0%;
+
+}
+
+
+.szallastab{
+  width: 100%;
+}
+
+.szallastd{
+  vertical-align: middle;
+  vertical-align: text-top;
+}
+
+.var{
+  width: 400px;
+}
+
+.furdo{
+  width: 400px;
+}
+
+.pince{
+  width: 400px;
+}
+
+.agria{
+  width: 400px;
+}
+
+.csillagvizsgalo{
+  width: 400px;
+}
+
+.tabli{
+  color: orange;
+}
+
+.tabli:hover{
+  color: red;
+}
+
+.szállás{
+  color: red;
+}
+
+#utazash1{
+  font-size: 40px;
+  text-decoration: underline;
+  color: lightgreen;
+}
+
+.utazasp{
+  color: lightgreen;
+}
+
+.utazaspd{
+  width: 500px;
+}
+
+.utazasdiv{
+  padding-left: 20px;
+  color: lightgreen;
+}
+
+.utazastab .utazastd .utazastr{
+  width: 1100px;
+  height: 50px;
+  color: lightgreen;
+  align-self: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-left: auto;
+  margin-top: 50px;
+}
+
+.utazastr{
+  vertical-align: middle;
+  height: 100px;
+  width: 200px;
+  vertical-align: text-top;
+}
+
+.utazastd{
+  width: 500px;
+
+}
+
+.utazastab{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kapcsdiv{
+  margin-top: 0;
+  color: lightblue;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.kapcsp{
+  margin-top: 50px;
+}
+
+.ulp{
+  margin-left: 54.5%;
+}
+
+
+#check1, #check2, #check3, #check4, #check5{
+  width: 280px;
+  height: 100px;
+}
+
+#check1, #check2, #check3, #check4, #check5:hover{
+  background-color: #89cff0;
+}
+
+h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+a{
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+caption{
+  font-style: italic;
+}
+
+a:hover{
+  text-shadow: 2px 2px 5px purple;
+}
+
+#progiterv{
+  text-align: center;
+  color: lightblue;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+
+.progtervprog{
+  overflow: hidden;
+  width: 89%;
+}
+
+h3{
+ float: left;
+  width: 0%;
+  margin: 9%;
+}
+
+.progtabi, .progtdi, .progtrit{
+  width: 100%;
+  border-color: white;
+  height: 100px;
+  color: lightblue;
+  align-self: left;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+}
+
+.progtdi{
+  width: 16%;
+}
+
+input{
+  height: 40px;
+  width: 14.6%;
+  size: 100px;
+  accent-color: lightblue;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 15px;
+}
+
+#delete{
+  width: 100px;
+  height: 50px;
+  float: right;
+  margin-right: 6%;
+}
+
+.progp{
+  text-align: center;
+  color: lightblue;
+  font-style: italic;
+}
+
+#testt{
+  height: 40px;
+}
+
+p::first-letter{
+  font-size: larger;
+  font-weight: bold;
+}
+
+button{
+  width: 80px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+button::after{
+  animation-name: prog;
+  animation-duration: 5s;
+}
+
+@keyframes prog{
+  from {color : purple}
+  to {color: pink}
+}
+
+@keyframes numer{
+  from {background-size: 120%;}
+  to {background-size: 130%}
+}
+
+#disp{
+  margin-top: 30px;
+}
+
+.progter{
+  list-style-type: none;
+  background-color: black;
+  width: 10%;
+  display: inline;
+}
+
+.progterv{
+  display: inline;
+  padding-right: 7%;
+  text-align: center;
+  color:lightblue;
+}
+
+.progbut{
+  color: lightblue;
+  background-color: #111;
+  border: 1px solid lightblue;
+}
+
+@keyframes but{
+  from {background-color: #111; color: lightblue;}
+  to {background-color: lightblue; color: #111;}
+}
+
+.progbut:hover{
+  animation: but 1s linear forwards;
+}
